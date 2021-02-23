@@ -1,0 +1,18 @@
+/* CSS styles */
+
+
+/*
+transition:<property> | <Duration> | <Timing function> | <Delay>
+*/
+div{
+  width: 100px;
+  height:100px;
+  background-color:#F00;
+  color:#FFF;
+  transition-property: width,background-color;/*Default value:all*/
+  transition:width 5s,background-color 6.5s;
+
+}
+div:hover{
+  width: 200px
+}
